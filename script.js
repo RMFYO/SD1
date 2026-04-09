@@ -1,5 +1,5 @@
 // Inicializa o mapa
-const map = L.map('map').setView([-23.688588416710047, -46.55294970006423);
+const map = L.map('map').setView([-23.68803822381837, -46.5531213614409]);
 
 // Adiciona o tile layer do OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
