@@ -1,5 +1,5 @@
 // Inicializa o mapa
-const map = L.map('map').setView([-23.561684, -46.655981], 15);
+const map = L.map('map').setView([-23.688588416710047, -46.55294970006423);
 
 // Adiciona o tile layer do OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Adiciona um marcador na localização da loja
-L.marker([-23.561684, -46.655981])
+L.marker([-23.688588416710047, -46.55294970006423])
   .addTo(map)
-  .bindPopup("Loja Exemplo<br>Rua das Flores, 123 - São Paulo/SP")
+  .bindPopup("R. Atlântica, 731 - Jardim do Mar, São Bernardo do Campo - SP, 09750-480")
   .openPopup();
